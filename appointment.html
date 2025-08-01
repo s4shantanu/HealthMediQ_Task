@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="img/fvg.png" alt="Logo" />
+                <h2>HealthmediQ</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="appointment.html">Appointment</a>
+                <a href="#">Call Doctor</a>
+                <a href="#">Home Nurse Visit</a>
+                <a href="#">Health Record</a>
+            </nav>
+        </aside>
+
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Topbar -->
+            <header class="topbar">
+                <div class="welcome">
+                    <p>Hi Shantanu Raut,👋</p>
+                    <h3>Welcome Back,</h3>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Type to search" class="search-input" />
+                    <i class="fas fa-search search-icon"></i>
+
+                </div>
+
+                <div class="top-icons">
+                    <div class="profile">
+                        <img src="img/user.png" alt="User" />
+                        <span>Shantanu Raut</span>
+                        <i class="fas fa-cog"></i>
+                    </div>
+                </div>
+            </header>
+
+            <section class="appointments">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <button class="tab active">Upcoming Appointments</button>
+                    <button class="tab">Past Appointments</button>
+                </div>
+
+                <!-- Section title -->
+                <p class="section-date">Today – 01 April 2025</p>
+
+                <!-- Appointment Cards Grid -->
+                <div class="card-grid">
+                    <!-- Doctor Card -->
+                    <div class="doctor-container">
+                        <div class="card">
+                            <div class="doctor-img">
+                                <img src="img/doc11.jpg"
+                                    alt="Doctor Photo" />
+                            </div>
+                            <div class="doctor-info">
+                                <div class="top-row">
+                                    <div>
+                                        <div class="name">Dr. Sumit Raut</div>
+                                        <div class="designation">MBBS,MD (General Physician)</div>
+                                        <div class="experience">8 Year Experience</div>
+                                        <div class="rating">4.1/5 (2,345)</div>
+                                    </div>
+                                    <div class="payment-status">
+                                        <i class="fas fa-clock"></i> Payment Pending
+                                    </div>
+                                </div>
+                                <div class="bottom-row">
+                                    <div class="info-item">
+                                        <i class="fas fa-video video-icon"></i>
+                                        <span>Video Call - <span class="video-status">Confirmed</span></span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-calendar-alt calendar-icon"></i>
+                                        <span>01 April 25</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-clock clock-icon"></i>
+                                        <span>10:00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="doctor-img">
+                                <img src="img/doc22.jpg"
+                                    alt="Doctor Photo" />
+                            </div>
+                            <div class="doctor-info">
+                                <div class="top-row">
+                                    <div>
+                                        <div class="name">Dr. Kunal Patil</div>
+                                        <div class="designation">MBBS,MD (Heart Specialist)</div>
+                                        <div class="experience">10 Year Experience</div>
+                                        <div class="rating">4.1/5 (2,345)</div>
+                                    </div>
+                                    <div class="payment-status">
+                                        <i class="fas fa-clock"></i> Payment Pending
+                                    </div>
+                                </div>
+                                <div class="bottom-row">
+                                    <div class="info-item">
+                                        <i class="fas fa-video video-icon"></i>
+                                        <span>Video Call - <span class="video-status">Confirmed</span></span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-calendar-alt calendar-icon"></i>
+                                        <span>01 April 25</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-clock clock-icon"></i>
+                                        <span>11:00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="doctor-img">
+                                <img src="img/doc2.jpg"
+                                    alt="Doctor Photo" />
+                            </div>
+                            <div class="doctor-info">
+                                <div class="top-row">
+                                    <div>
+                                        <div class="name">Dr. Aditi Mone</div>
+                                        <div class="designation">MBBS,MD (Child Specialist)</div>
+                                        <div class="experience">6 Year Experience</div>
+                                        <div class="rating">4.1/5 (2,345)</div>
+                                    </div>
+                                    <div class="payment-status Paid">
+                                        <i class="fas fa-check-circle"></i>Paid
+                                    </div>
+                                </div>
+                                <div class="bottom-row">
+                                    <div class="info-item">
+                                        <i class="fas fa-video video-icon"></i>
+                                        <span>Video Call - <span class="video-status">Confirmed</span></span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-calendar-alt calendar-icon"></i>
+                                        <span>01 April 25</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-clock clock-icon"></i>
+                                        <span>12:00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card">
+                            <div class="doctor-img">
+                                <img src="img/doc.jpg"
+                                    alt="Doctor Photo" />
+                            </div>
+                            <div class="doctor-info">
+                                <div class="top-row">
+                                    <div>
+                                        <div class="name">Dr. Sumit Raut</div>
+                                        <div class="designation">MBBS,MD (General Physician)</div>
+                                        <div class="experience">8 Year Experience</div>
+                                        <div class="rating">4.1/5 (2,345)</div>
+                                    </div>
+                                    <div class="payment-status">
+                                        <i class="fas fa-clock"></i> Payment Pending
+                                    </div>
+                                </div>
+                                <div class="bottom-row">
+                                    <div class="info-item">
+                                        <i class="fas fa-video video-icon"></i>
+                                        <span>Video Call - <span class="video-status">Confirmed</span></span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-calendar-alt calendar-icon"></i>
+                                        <span>01 April 25</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-clock clock-icon"></i>
+                                        <span>01:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Add more doctor-card blocks below -->
+                </div>
+            </section>
+
+            <button class="book-appointment-btn">
+                <i class="fas fa-calendar-plus"></i> Book New Appointment
+            </button>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
